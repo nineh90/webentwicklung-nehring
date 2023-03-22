@@ -1,0 +1,153 @@
+@media(max-width: 1440px){
+    h1{
+        margin-top: 90px;
+    }
+}
+
+
+@media(max-width: 1024px){
+    .header-content-bottom{
+        background-size: 75%;
+    }
+    .img-header {
+        width: 100px;
+    }
+}
+
+
+@media(max-width: 768px){
+   h1{
+        margin-top: 60px;
+        font-size: 24px;
+   }
+
+   .img-header {
+        width: 80px;
+    }
+
+   .header-content-bottom p {
+        color: white;
+        font-size: 16px;
+    }
+
+    .navbar-container{
+        width: 50%;
+    }
+
+    #menuIcon{
+        width: 30px;
+        height: 30px;
+
+    } 
+    #menuIcon span{
+        height: 4px;
+        
+    }
+
+    .logo-header {
+        width: 120px;
+    }
+
+    #menuIcon span:nth-child(2), #menuIcon span:nth-child(3) {
+        top: 10px;
+    }
+
+    #menuIcon span:nth-child(4) {
+        top: 20px;
+    }
+    .content-width {
+        width: 70%;
+    }
+    .project-container {
+        width: 70%;
+    }
+}
+
+
+@media(max-width: 427px){
+    h1{
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .img-header {
+        width: 60px;
+    }
+
+    #menuIcon{
+        left: 20px;
+    }
+
+   .header-container{
+        height: 50vh;
+   }
+
+   .header-content-bottom{
+        height: 40vh;
+        background-size: 100%;
+   }
+
+   .header-content-bottom p{
+        font-size: 12px;
+   }
+
+   .navbar-container {
+        width: 100%;    
+    }
+
+   .content-container{
+        margin-top: 0;
+   }
+
+   .content-width {
+        width: 95%;
+    }
+
+    .content-img{
+        width: 150px;
+        height: 150px;
+    }
+    .image-container{
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .image-container img{
+        margin: 12px;
+    }
+
+}
+
+
+@media(max-width: 375px){
+    h1{
+        margin-top: 40px;
+    }
+
+    .img-header {
+        width: 55px;
+    }
+}
+
+@media(max-width: 320px){
+    h1{
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    .img-header {
+        width: 55px;
+    }
+
+    .header-content-bottom p {
+        font-size: 10px;
+    }
+
+    .img-header {
+        width: 40px;
+    }
+}
